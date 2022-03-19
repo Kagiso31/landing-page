@@ -140,6 +140,40 @@ a {
     font-weight: 900;
 }
 
+/* CTA */
+
+.cta {
+    padding: 90px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 90px;
+    border-radius: 8px;
+}
+
+.cta-header {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cta-text {
+    color: #E5E7EB;
+}
+
+.cta-btn {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+}
+
 /* Footer */
 .footer {
     background-color: #1F2937;
