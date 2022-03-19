@@ -84,6 +84,42 @@ a {
     height: 270px;
 }
 
+/* Info */
+
+.info {
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 48px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #1F2937;
+}
+
 /* Footer */
 .footer {
     background-color: #1F2937;
