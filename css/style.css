@@ -12,7 +12,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 90px;
 }
 
 .header-logo {
@@ -35,10 +35,53 @@ a {
     text-decoration: none;
 }
 
-/* Content */
+/* Container */
 
 .container {
     flex: 1;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 90px;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: left;
+    margin: 16px 0;
+}
+
+.hero-left button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-right img {
+    width: 600px;
+    height: 270px;
 }
 
 /* Footer */
